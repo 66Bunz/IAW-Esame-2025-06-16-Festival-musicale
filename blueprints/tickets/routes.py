@@ -11,6 +11,7 @@ from utils.logger import get_logger
 logger = get_logger()
 from blueprints.tickets import tickets_bp
 
+
 @tickets_bp.route("/")
 def index():
     ticket = None
